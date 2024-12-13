@@ -1,17 +1,11 @@
 "use client";
-import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 import styles from "../../styles.module.css";
 import Code from "../_components/Code";
 
 export default function About() {
-  const pathname = usePathname();
-  const [path, setPath] = useState<string | null>(null);
-
-  useEffect(() => {
-    setPath(pathname);
-  }, [pathname]);
+  const path = usePathname();
 
   return (
     <div className={styles.container}>
