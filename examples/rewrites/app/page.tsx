@@ -32,17 +32,6 @@ export default function Index() {
                 Visit /about-us
               </Link>
             </li>
-            <li>
-              <Link href="/post/first-post">Visit /post/first-post</Link>
-            </li>
-            <li>
-              <Link href="/blog/2020/first-post">
-                Visit /blog/2020/first-post
-              </Link>
-            </li>
-            <li>
-              <Link href="/docs/page">Visit External URL</Link>
-            </li>
           </ul>
         </nav>
         <p>
